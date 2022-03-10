@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{
+            margin: auto;
+            padding: 0px;
+        }
+        .wrapper{
+            height: 700px;
+            width: 1089px;
+            background-color: antiquewhite;
+        }
+        header{
+            height: 150px;
+            width: 100%;
+            background-color:  rgb(179, 11, 11);
+            color: aliceblue;
+            font-size: 1.5;
+            text-align: center;
+            line-height: 80px;
+        }
+        nav{
+            height: 50px;
+            width: 100%;
+            background-color: yellow;
+        }
+        .content1{
+            display: flex;
+        }
+        aside{
+            height: 400px;
+            width: 30%;
+            background-color: blue;
+            margin: 0;
+        }
+       .d1{
+            height: 400px;
+            width: 35%;
+            background-color: rgb(201, 19, 140);
+            margin: 0;
+        }
+        footer{
+            height: 100px;
+            width: 100%;
+            background-color:  black;
+        }
+        .menu li{
+            float: left;
+            list-style: none;
+            line-height: 50px;
+            width: 100px;
+            display: inline-block;
+            text-align: center;
+            position: relative;
+            cursor: pointer;
+        }
+        .menu> li:hover{
+            background-color: aqua;
+        }
+        .wrapper .menu .menunho{
+            display: none;
+            position: absolute;
+            background-color: aqua;
+        }
+        .menu li:hover .menunho{
+            display: block;
+        }
+        .wrapper .menu .menunho li:hover{
+            background-color: yellow;
+        }
+    </style>
+    <title>Loyout tuan 3</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            HỆ THỐNG VÀ CÔNG NGHỆ WEB
+        </header>
+        <nav>
+            <ul class="menu">
+                <li><a href="">Trang chu</a></li>
+                <li><a href="">Phim</a></li>
+                <li><a href="">Bao</a></li>
+                <li><a href="">Nhieu hon</a>
+                    <ul class="menunho"> 
+                        <li>Hoat hinh</li>
+                        <li>Phim dai tap </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <div class="content1">
+            <aside>
+
+            </aside>
+            <div class="d1">
+                
+            </div>
+        </div>
+        <footer></footer>
+    </div>
+</body>
+</html>
